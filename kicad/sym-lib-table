@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OPL2)(type Legacy)(uri ${KIPRJMOD}/OPL2.lib)(options "")(descr ""))
+)
