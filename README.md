@@ -20,6 +20,9 @@ https://www.tindie.com/products/TexElec/resound-opl3-4-channel-sound-card-8-bit-
 Pictures
 ------------
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/opl31.png?raw=true "bar")
+
+The capacitors do double-duty as a stand-off.
+
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/opl32.png?raw=true "bar")
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/sch.png?raw=true "bar")
 
