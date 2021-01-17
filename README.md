@@ -21,7 +21,7 @@ Pictures
 ------------
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/opl31.png?raw=true "bar")
 
-The capacitors do double-duty as a stand-off.
+The capacitors do double-duty as stand-offs.
 
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/opl32.png?raw=true "bar")
 ![foo](https://github.com/gtr3qq/opl3_solo/blob/main/sch.png?raw=true "bar")
