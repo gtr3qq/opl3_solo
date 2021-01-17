@@ -1213,8 +1213,9 @@ F 3 "~" H 1450 3250 50  0001 C CNN
 	1    1450 3250
 	-1   0    0    1   
 $EndComp
-Connection ~ 2300 2150
 Connection ~ 1450 3250
 Wire Wire Line
 	1450 3250 1650 3250
+Text Notes 3750 5500 0    50   ~ 0
+idk if the freq. correct or not.
 $EndSCHEMATC

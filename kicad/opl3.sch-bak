@@ -96,10 +96,6 @@ Connection ~ 1850 2150
 Wire Wire Line
 	1850 2150 1850 2750
 Wire Wire Line
-	1850 2150 2300 2150
-Wire Wire Line
-	2300 2150 2300 2250
-Wire Wire Line
 	1550 2150 1850 2150
 Wire Wire Line
 	1900 2450 1550 2450
@@ -981,14 +977,9 @@ Wire Wire Line
 Connection ~ 2000 5350
 Wire Wire Line
 	2000 5350 2150 5350
-Connection ~ 1400 5800
-Wire Wire Line
-	1400 5800 1600 5800
 Connection ~ 1400 6000
 Wire Wire Line
 	1400 6000 1600 6000
-Wire Wire Line
-	1200 5800 1400 5800
 Wire Wire Line
 	1200 6000 1400 6000
 Text Notes 1250 6450 0    100  ~ 20
@@ -1057,7 +1048,7 @@ Wire Notes Line
 Text GLabel 2050 5850 0    50   Input ~ 0
 ~WR
 Wire Wire Line
-	1250 3250 1650 3250
+	1250 3250 1450 3250
 $Comp
 L power:VCC #PWR0121
 U 1 1 6004D3A7
@@ -1202,4 +1193,28 @@ F 3 "" H 2350 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2350 7250
+Wire Wire Line
+	1850 2150 2300 2150
+Wire Wire Line
+	2300 2150 2300 2250
+Wire Wire Line
+	1200 5800 1400 5800
+Connection ~ 1400 5800
+Wire Wire Line
+	1400 5800 1600 5800
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FFBA44D
+P 1450 3250
+F 0 "#FLG0101" H 1450 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 3423 50  0000 C CNN
+F 2 "" H 1450 3250 50  0001 C CNN
+F 3 "~" H 1450 3250 50  0001 C CNN
+	1    1450 3250
+	-1   0    0    1   
+$EndComp
+Connection ~ 2300 2150
+Connection ~ 1450 3250
+Wire Wire Line
+	1450 3250 1650 3250
 $EndSCHEMATC
